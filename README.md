@@ -21,9 +21,14 @@ It uses clustering approach which aims to partition n input features into some k
 This is unsupervised learning of document images.
 
 RUN COMMANDS:
+
 python HOG_FEATURE_EXTRAC.py --training images/dataset
+
 python KMeans.py
+
 python extract.py
+
 python folders.py
+
 python divide.py --training images/dataset
 
